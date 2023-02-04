@@ -1,0 +1,19 @@
+{
+  "name": "intro-to-vue-3_fork",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashuai-jpg/Intro-to-Vue-3_Fork.git"
+  },
+  "author": "none",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashuai-jpg/Intro-to-Vue-3_Fork/issues"
+  },
+  "homepage": "https://github.com/Ashuai-jpg/Intro-to-Vue-3_Fork#readme"
+}
