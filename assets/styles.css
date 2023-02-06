@@ -10,7 +10,7 @@ body {
   background-color: #39495c;
   border-radius: 5px;
   font-size: 18px;
-  width: 160px;
+  width: 160px 200px ;
   height: 60px;
   color: white;
   padding: 20px;
@@ -24,6 +24,10 @@ body {
 .cart {
   margin: 25px 100px;
   float: right;
+  width: 40px;
+  position: sticky;
+  top: 5%;
+  left: 90%;
   border: 1px solid #d8d8d8;
   padding: 30px 30px;
   background-color: white;

@@ -39,6 +39,14 @@ app.component('product-display', {
           Add to Cart
         </button>
 
+        <button 
+          class="button" 
+          :class="{ disabledButton: !inStock }" 
+          :disabled="!inStock" 
+          v-on:click="remFromCart">
+          Remove from Cart
+        </button>
+
       </div>
     </div>
     <review-list v-if="reviews.length"  :reviews="reviews" ></review-list>
@@ -60,6 +68,9 @@ app.component('product-display', {
   methods: {
     addToCart() {
       this.$emit('add-to-cart', this.variants[this.selectedVariant].id)
+    },
+    remFromCart() {
+      this.$emit('del-from-cart')
     },
     updateVariant(index) {
       this.selectedVariant = index
