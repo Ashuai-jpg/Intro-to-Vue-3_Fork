@@ -11,6 +11,8 @@ const app = Vue.createApp({
         },
         remFromCart() {
             this.cart.pop();
+            
         }
     }
 })
+

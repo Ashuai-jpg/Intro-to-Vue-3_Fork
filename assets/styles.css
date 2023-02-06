@@ -22,6 +22,7 @@ body {
 }
 
 .cart {
+  text-decoration:underline;
   margin: 25px 100px;
   float: right;
   width: 40px;
